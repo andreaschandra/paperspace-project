@@ -1,0 +1,1 @@
+gradient experiments run singlenode --projectId prp6oj007 --name paperspace-project-2 --container tensorflow/tensorflow:1.13.1-gpu-py3 --machineType G1 --command "pip install -r requirements.txt && python train.py" --workspace https://github.com/andreaschandra/paperspace-project-2.git --modelType Sklearn --modelPath /artifacts 
