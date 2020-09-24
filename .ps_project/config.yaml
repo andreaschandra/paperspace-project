@@ -10,3 +10,5 @@ workflows:
           command: pip install -r requirements.txt && python train.py
           container: tensorflow/tensorflow:1.13.1-gpu-py3
           machineType: "C3"
+          modelPath: /artifacts
+          modelType: Custom
