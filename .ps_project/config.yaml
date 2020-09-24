@@ -4,7 +4,7 @@ workflows:
   single-node:
     steps:
       -
-        name: "single-node"
+        name: "train mnist"
         command: experiment.run_single_node
         params:
           command: pip install -r requirements.txt && python train.py
