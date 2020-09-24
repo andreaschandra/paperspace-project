@@ -1,8 +1,6 @@
 import os
 import pickle
-
 import pandas as pd
-
 from sklearn.datasets import load_iris
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score

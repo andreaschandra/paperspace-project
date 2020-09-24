@@ -7,6 +7,6 @@ workflows:
         name: "single-node"
         command: experiment.run_single_node
         params:
-          command: pip install -r train.py && python train.py
+          command: pip install -r requirements.txt && python train.py
           container: tensorflow/tensorflow:1.13.1-gpu-py3
           machineType: "C3"
