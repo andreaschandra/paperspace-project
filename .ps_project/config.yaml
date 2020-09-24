@@ -12,3 +12,4 @@ workflows:
           machineType: "C3"
           modelPath: /artifacts
           modelType: Custom
+          name: "iris model"
