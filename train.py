@@ -1,7 +1,7 @@
-import os
+"""Train model on paperspace workflow
+"""
 import pickle
 import pandas as pd
-from sklearn.datasets import load_iris
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
@@ -21,5 +21,5 @@ accuracy = accuracy_score(y, y_pred)
 
 print("accuracy", accuracy)
 
-## update dump comment here
+# update dump comment here
 pickle.dump(nb, open("/artifacts/model.pkl", "wb"))
